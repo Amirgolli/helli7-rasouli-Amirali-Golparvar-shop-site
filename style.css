@@ -29,6 +29,7 @@
 .Logo{
     display: flex;
     align-items: center;
+    gap: 5px;
 }
 .Logo img{
     width: 50px;
@@ -62,3 +63,55 @@
     width: 25px;
 }
 
+/* .......................banner........................... */
+.banner{
+    height: 716px;
+    margin-top: 25.7px;
+    background-image: url(images/banner-header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.lable-banner{
+    width: 643px;
+    height: 443px;
+    background-color: rgba(255, 243, 227, 1);
+    position: absolute;
+    left: 739px;
+    top: 153px;
+    border-radius: 10px;
+    padding-top: 22px;
+    padding-bottom: 27px;
+    padding-left: 39px;
+    padding-right: 136px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.txt-lable{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.txt-lable h2{
+    color: rgba(184, 142, 47, 1);
+    font-size: 52px;
+    line-height: 62px;
+}
+.btn-banner{
+    width: 222px;
+    height: 54px;
+    background-color: rgba(184, 142, 47, 1);
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.txt-lable span{
+    font-size: 16px;
+    font-weight: 500;
+}
