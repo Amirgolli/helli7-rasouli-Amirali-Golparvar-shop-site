@@ -120,3 +120,42 @@ a{
     font-size: 16px;
     font-weight: 500;
 }
+/* .......................part of home........................... */
+.parts-room{
+    margin-top: 56.47px;
+    margin-right: 126px;
+    margin-left: 131px;
+}
+.title-parts-room{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-parts-room h3{
+    font-size: 32px;
+    color: rgba(51, 51, 51, 1);
+}
+.title-parts-room p{
+    color: var(--gray-color);
+    margin-bottom: 63px;
+}
+
+.section-parts-room{
+    display: flex;
+}
+.img-parts-room{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+.img-parts-room img{
+    width: 381px;
+}
+.img-parts-room span{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 30px;
+    color: rgba(51, 51, 51, 1);
+}
