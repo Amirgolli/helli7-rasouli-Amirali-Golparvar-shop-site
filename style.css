@@ -17,6 +17,12 @@
     margin-left: 102px;
     margin-right: 102px;
 }
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
 /* .......................header........................... */
 .header{
     display: flex;
@@ -36,7 +42,6 @@
 }
 .txt-logo{
     font-size: 32px;
-    text-decoration: none;
     color: black;
 }
 
