@@ -159,3 +159,73 @@ a{
     margin-top: 30px;
     color: rgba(51, 51, 51, 1);
 }
+/* .......................cards........................... */
+#title-cards{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 56px
+}
+.card-box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 430px;
+    width: 285px;
+    margin-top: 32px;
+    background-color: rgba(244, 245, 247, 1);
+}
+.img-box{
+    position: relative;
+}
+#img-card{
+    width: 285px;
+}
+#offer-box{
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    height: 48px;
+    width: 48px;
+    background-color: rgba(233, 113, 113, 1);
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 11px;
+    color: white;
+}
+
+#offer-boxNew{
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    height: 48px;
+    width: 48px;
+    background-color: rgba(46, 193, 172, 1);
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 11px;
+    color: white;
+}
+.txt-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 16px;
+}
+.txt-cards span{
+    color: var(--bg-cards);
+}
+
+.price-card{
+    display: flex;
+    gap: 16px;
+}
+
+#offer-price{
+    color:rgba(176, 176, 176, 1) ;
+}
