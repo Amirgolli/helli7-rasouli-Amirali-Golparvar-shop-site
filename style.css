@@ -229,3 +229,17 @@ a{
 #offer-price{
     color:rgba(176, 176, 176, 1) ;
 }
+.show-more{
+    width: 245px;
+    height: 48px;
+    border: solid 1px var(--main-color);
+    color: var(--main-color);
+    font-weight: 500;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    cursor: pointer;
+    background-color: white;
+}
