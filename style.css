@@ -239,7 +239,36 @@ a{
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 69px;
     cursor: pointer;
     background-color: white;
+}
+/* .......................slider-banner........................... */
+.slider-banner{
+    height: 670px;
+    background-color:rgba(252, 248, 243, 1) ;
+    display: flex;
+    align-items: center;
+}
+.txt-slider{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-left: 100px;
+    margin-top: 22px;
+    margin-left: 223px;
+    margin-right: 40px;
+}
+.main-txt-slider h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.main-img{
+    width: 404px;
+    height: 582px;
+    background-image: url(images/inner\ peace.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
