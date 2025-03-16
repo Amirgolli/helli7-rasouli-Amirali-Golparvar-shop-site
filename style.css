@@ -1,30 +1,34 @@
-:root{
-    --main-color:rgba(184, 142, 47, 1);
-    --second-color:rgba(255, 243, 227, 1);
-    --gray-color:rgba(102, 102, 102, 1);
-    --bg-cards:rgba(137, 137, 137, 1);
-    --cover-cards:rgba(58, 58, 58, 1);
-    --gray-footer:rgba(159, 159, 159, 1);
+:root {
+    --main-color: rgba(184, 142, 47, 1);
+    --second-color: rgba(255, 243, 227, 1);
+    --gray-color: rgba(102, 102, 102, 1);
+    --bg-cards: rgba(137, 137, 137, 1);
+    --cover-cards: rgba(58, 58, 58, 1);
+    --gray-footer: rgba(159, 159, 159, 1);
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
-.main-margine{
+.main-margine {
     margin-left: 102px;
     margin-right: 102px;
 }
-ul{
+
+ul {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
+
 /* .......................header........................... */
-.header{
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -32,44 +36,48 @@ a{
 }
 
 
-.Logo{
+.Logo {
     display: flex;
     align-items: center;
     gap: 5px;
 }
-.Logo img{
+
+.Logo img {
     width: 50px;
 }
-.txt-logo{
+
+.txt-logo {
     font-size: 32px;
     color: black;
 }
 
 
-.header-center{
+.header-center {
     display: flex;
     gap: 75px;
 }
-.txt-centre-header a{
+
+.txt-centre-header a {
     text-decoration: none;
     color: black;
 }
-.txt-centre-header a:hover{
+
+.txt-centre-header a:hover {
     color: var(--main-color);
 }
 
 
-.header-right{
+.header-right {
     display: flex;
     gap: 46px;
 }
 
-.header-right a img{
+.header-right a img {
     width: 25px;
 }
 
 /* .......................banner........................... */
-.banner{
+.banner {
     height: 716px;
     margin-top: 25.7px;
     background-image: url(images/banner-header.png);
@@ -79,7 +87,7 @@ a{
     position: relative;
 }
 
-.lable-banner{
+.lable-banner {
     width: 643px;
     height: 443px;
     background-color: rgba(255, 243, 227, 1);
@@ -95,17 +103,20 @@ a{
     flex-direction: column;
     justify-content: space-around;
 }
-.txt-lable{
+
+.txt-lable {
     display: flex;
     flex-direction: column;
     gap: 17px;
 }
-.txt-lable h2{
+
+.txt-lable h2 {
     color: rgba(184, 142, 47, 1);
     font-size: 52px;
     line-height: 62px;
 }
-.btn-banner{
+
+.btn-banner {
     width: 222px;
     height: 54px;
     background-color: rgba(184, 142, 47, 1);
@@ -116,62 +127,72 @@ a{
     cursor: pointer;
 }
 
-.txt-lable span{
+.txt-lable span {
     font-size: 16px;
     font-weight: 500;
 }
+
 /* .......................part of home........................... */
-.parts-room{
+.parts-room {
     margin-top: 56.47px;
     margin-right: 126px;
     margin-left: 131px;
 }
-.title-parts-room{
+
+.title-parts-room {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.title-parts-room h3{
+
+.title-parts-room h3 {
     font-size: 32px;
     color: rgba(51, 51, 51, 1);
 }
-.title-parts-room p{
+
+.title-parts-room p {
     color: var(--gray-color);
     margin-bottom: 63px;
 }
 
-.section-parts-room{
+.section-parts-room {
     display: flex;
 }
-.img-parts-room{
+
+.img-parts-room {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     margin-left: 20px;
 }
-.img-parts-room img{
+
+.img-parts-room img {
     width: 381px;
 }
-.img-parts-room span{
+
+.img-parts-room span {
     font-size: 24px;
     font-weight: 500;
     margin-top: 30px;
     color: rgba(51, 51, 51, 1);
 }
+
 /* .......................cards........................... */
-#title-cards{
+#title-cards {
     text-align: center;
     font-size: 40px;
     font-weight: bold;
     margin-top: 56px
 }
-.card-box{
+
+.card-box {
     display: flex;
     justify-content: space-between;
     margin-bottom: 32px;
 }
-.card{
+
+.card {
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -180,13 +201,16 @@ a{
     margin-top: 32px;
     background-color: rgba(244, 245, 247, 1);
 }
-.img-box{
+
+.img-box {
     position: relative;
 }
-#img-card{
+
+#img-card {
     width: 285px;
 }
-#offer-box{
+
+#offer-box {
     position: absolute;
     top: 24px;
     right: 24px;
@@ -199,7 +223,7 @@ a{
     color: white;
 }
 
-#offer-boxNew{
+#offer-boxNew {
     position: absolute;
     top: 24px;
     right: 24px;
@@ -211,31 +235,34 @@ a{
     padding-top: 11px;
     color: white;
 }
-.txt-cards{
+
+.txt-cards {
     display: flex;
     flex-direction: column;
     gap: 8px;
     margin-left: 16px;
 }
-.txt-cards span{
+
+.txt-cards span {
     color: var(--bg-cards);
 }
 
-.price-card{
+.price-card {
     display: flex;
     gap: 16px;
 }
 
-#offer-price{
-    color:rgba(176, 176, 176, 1) ;
+#offer-price {
+    color: rgba(176, 176, 176, 1);
 }
-.show-more{
+
+.show-more {
     width: 245px;
     height: 48px;
     border: solid 1px var(--main-color);
     color: var(--main-color);
     font-weight: 500;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
@@ -243,32 +270,116 @@ a{
     cursor: pointer;
     background-color: white;
 }
+
 /* .......................slider-banner........................... */
-.slider-banner{
+.slider-banner {
     height: 670px;
-    background-color:rgba(252, 248, 243, 1) ;
+    background-color: rgba(252, 248, 243, 1);
     display: flex;
     align-items: center;
 }
-.txt-slider{
+
+.txt-slider {
     display: flex;
     flex-direction: column;
+    width: 38%;
     gap: 25px;
     margin-left: 100px;
     margin-top: 22px;
-    margin-left: 223px;
-    margin-right: 40px;
+    padding-right: 128px;
 }
-.main-txt-slider h3{
+
+#btn-slider {
+    height: 48px;
+    width: 176px;
+    background-color: var(--main-color);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.main-txt-slider h3 {
     font-size: 40px;
     font-weight: bold;
 }
 
-.main-img{
+.img-slider {
+    display: flex;
+    gap: 24px;
+}
+
+.main-img {
     width: 404px;
     height: 582px;
     background-image: url(images/inner\ peace.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+}
+
+#box-main-img {
+    width: 217px;
+    height: 130px;
+    background-color: rgba(255, 255, 255, 0.72);
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+}
+
+#box-main-img p {
+    margin-left: 32px;
+    margin-top: 32px;
+}
+
+#box-main-img h4 {
+    margin-left: 32px;
+    margin-top: 8px;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+#arrow-main-img {
+    width: 48px;
+    height: 48px;
+    background-color: var(--main-color);
+    position: absolute;
+    bottom: 24px;
+    left: 241px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-img {
+    width: 372px;
+    height: 468px;
+    background-image: url(images/beat-room.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#flash {
+    width: 18px;
+}
+
+#flash-box {
+    height: 48px;
+    width: 48px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 267px;
+    left:345px ;
+    cursor: pointer;
+}
+
+#flash-box img {
+    height: 14px;
+
 }
