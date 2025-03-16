@@ -375,7 +375,7 @@ a {
     justify-content: center;
     position: absolute;
     top: 267px;
-    left:345px ;
+    left: 345px;
     cursor: pointer;
 }
 
@@ -383,3 +383,77 @@ a {
     height: 14px;
 
 }
+
+/* .......................slider-banner........................... */
+
+.txt-album{
+    margin-top: 68px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt-album p{
+    color: rgba(97, 97, 97, 1);
+    font-size: 20px;
+}
+.txt-album h3{
+    color: var(--cover-cards);
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+
+#laptop{
+    width: 451px;
+}
+#Bed{
+    width: 290px;
+}
+#camera{
+    width: 344px;
+}
+#Dining-room{
+    width: 295px;
+}
+#chair{
+    width: 181px;
+}
+#rooom{
+    width: 274px;
+}
+#Signboard{
+    width: 178px;
+}
+#Kitchen{
+    width: 285px;
+}
+
+.img-container{
+    display: flex;
+}
+
+  .img-container, .img-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+    
+  }
+
+  .img-container img, .img-container2 img {
+    width: 220px;    
+    height: auto;     
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+
+  .img-container img:hover, .img-container2 img:hover {
+    transform: scale(1.03);
+  }
