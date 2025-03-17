@@ -12,7 +12,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    overflow: unset;
 }
 
 .main-margine {
@@ -202,6 +201,11 @@ a {
     width: 285px;
     margin-top: 32px;
     background-color: rgba(244, 245, 247, 1);
+}
+.card-box-last{
+    display: none;
+    justify-content: space-between;
+    margin-bottom: 32px;
 }
 
 .img-box {
