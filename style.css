@@ -12,6 +12,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    overflow: unset;
 }
 
 .main-margine {
@@ -25,6 +26,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 /* .......................header........................... */
@@ -386,7 +388,7 @@ a {
 
 /* .......................slider-banner........................... */
 
-.txt-album{
+.txt-album {
     margin-top: 68px;
     display: flex;
     flex-direction: column;
@@ -394,11 +396,12 @@ a {
     justify-content: center;
 }
 
-.txt-album p{
+.txt-album p {
     color: rgba(97, 97, 97, 1);
     font-size: 20px;
 }
-.txt-album h3{
+
+.txt-album h3 {
     color: var(--cover-cards);
     font-weight: bold;
     font-size: 40px;
@@ -406,54 +409,113 @@ a {
 
 
 
-#laptop{
+#laptop {
     width: 451px;
 }
-#Bed{
+
+#Bed {
     width: 290px;
 }
-#camera{
+
+#camera {
     width: 344px;
 }
-#Dining-room{
+
+#Dining-room {
     width: 295px;
 }
-#chair{
+
+#chair {
     width: 181px;
 }
-#rooom{
+
+#rooom {
     width: 274px;
 }
-#Signboard{
+
+#Signboard {
     width: 178px;
 }
-#Kitchen{
+
+#Kitchen {
     width: 285px;
 }
 
-.img-container{
+.img-container {
     display: flex;
 }
 
-  .img-container, .img-container2 {
+.img-container,
+.img-container2 {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
     margin-bottom: 2rem;
-    
-  }
 
-  .img-container img, .img-container2 img {
-    width: 220px;    
-    height: auto;     
+}
+
+.img-container img,
+.img-container2 img {
+    width: 220px;
+    height: auto;
     object-fit: cover;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
     cursor: pointer;
-  }
+}
 
-  .img-container img:hover, .img-container2 img:hover {
+.img-container img:hover,
+.img-container2 img:hover {
     transform: scale(1.03);
-  }
+}
+
+/* .......................footer........................... */
+.footer {
+    border-top: 2px solid rgba(217, 217, 217, 1);
+}
+
+.content-footer {
+    margin-top: 48px;
+    display: flex;
+    gap: 144px;
+    border-bottom: solid 2px rgba(217, 217, 217, 1) ;
+    margin-bottom: 59px;
+}
+
+.brand-footer h5 {
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.li-footer {
+    margin-top: 46px;
+}
+.li-footer a:hover {
+    color: var(--main-color);
+}
+
+
+#title-footer {
+    color: var(--gray-footer);
+}
+
+#input-footer,
+#btn-footer {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#input-footer{
+    padding-right: 10px;
+}
+#btn-footer {
+    cursor: pointer;
+    background-color: white;
+}
+#last-txt{
+    margin-bottom: 38px;
+
+}
