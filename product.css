@@ -1,0 +1,18 @@
+.address-bar{
+    height: 100px;
+    background-color: rgba(249, 241, 231, 1);
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding-left: 99px;
+}
+
+#gray-address{
+    color: #9F9F9F;
+    font-weight: 300;
+}
+#flash-adderss{
+    width: 10px;
+    font-weight: 300;
+
+}
